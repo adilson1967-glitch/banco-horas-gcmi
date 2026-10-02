@@ -1,0 +1,11 @@
+# Segredos e configuração local — NUNCA versionar
+backend/supabase-config.js
+public/supabase-config.js
+.env
+.env.local
+*.log
+node_modules/
+.DS_Store
+Thumbs.db
+supabase/.temp/
+supabase/.branches/

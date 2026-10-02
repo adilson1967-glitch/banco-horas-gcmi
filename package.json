@@ -1,0 +1,13 @@
+{
+  "name": "banco-horas-gcmi",
+  "version": "110.0.0",
+  "private": true,
+  "description": "Banco de Horas GCMI - v110. CSP restritiva por hash (sem unsafe-inline em script), trilha de auditoria com SHA-256, trava otimista na sincronizacao, RLS por papel (gerencial/auditoria/operacional) e as 6 regras consolidadas do Anexo v1.1 (R-14, R-27, R-28, R-29, R-42, R-43).",
+  "scripts": {
+    "start": "npx serve public",
+    "check": "node backend/check-html.js"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
